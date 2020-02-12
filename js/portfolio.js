@@ -28,15 +28,6 @@ $.ajax({
     $("#avatar").attr("src", response.avatar_url);
 });
 
-let githubEmailURL = "https://api.github.com/user/:" + githubUsername;
-
-$.ajax({
-    url: githubEmailURL,
-    method: "GET"
-}).then(function (response) {
-    console.log(response);
-});
-
 // Copies url to clipboard
 shareIcon.on("click", function (event) {
     event.preventDefault();
