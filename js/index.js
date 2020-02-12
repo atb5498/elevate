@@ -3,5 +3,5 @@ $("#login-btn").on("click", function (event) {
 
   let githubUsername = $("#login-input").val().trim();
 
-  window.location.href = "portfolio.html?name=" + githubUsername;
+  window.location.href = "profile.html?name=" + githubUsername;
 })

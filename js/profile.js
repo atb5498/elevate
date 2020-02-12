@@ -9,7 +9,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-// Requests github information and appends it to portfolio page
+// Requests github information and appends it to profile page
 let githubURL = "https://api.github.com/users/" + githubUsername;
 
 $.ajax({
