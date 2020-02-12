@@ -1,0 +1,139 @@
+body {
+  background-color: #f5f9e9;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  color: #171817;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+.navbar-light:hover .navbar-brand:hover {
+  color: #c2c1a5;
+}
+
+.jumbotron {
+  background-color: #171817;
+  color: #515751;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+}
+
+#elevate {
+  margin-top: 200px;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+}
+
+i {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  color: #171817;
+  background-color: #c2c1a5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 9px;
+}
+
+i:hover {
+  background-color: white;
+}
+
+i:active {
+  background-color: #171817;
+  color: white;
+}
+
+#bio {
+  margin-bottom: 25px;
+}
+
+#avatar {
+  width: 225px;
+  border: 10px solid #c2c1a5;
+}
+
+#login-input:focus {
+  box-shadow: 0 0 0 0.2rem #515751;
+  border: none;
+}
+
+#login-btn {
+  border: none;
+  background-color: #171817;
+  color: #515751;
+  letter-spacing: 1px;
+}
+
+#login-btn:hover {
+  color: white;
+}
+
+#login-btn:focus {
+  box-shadow: 0 0 0 0.2rem #515751;
+}
+
+#login-btn:active {
+  color: #171817;
+  background-color: #f5f9e9
+}
+
+@media only screen and (min-width: 350px) {
+  #avatar {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  #avatar {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .jumbotron {
+    text-align: left;
+  }
+  #avatar {
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 35px;
+  }
+  i {
+    margin-bottom: 35px;
+  }
+  #headline {
+    margin-bottom: 35px;
+  }
+}
