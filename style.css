@@ -68,27 +68,27 @@ i:active {
   border: 10px solid #c2c1a5;
 }
 
-#login-input:focus {
+#search-input:focus {
   box-shadow: 0 0 0 0.2rem #515751;
   border: none;
 }
 
-#login-btn {
+#search-btn {
   border: none;
   background-color: #171817;
   color: #515751;
   letter-spacing: 1px;
 }
 
-#login-btn:hover {
+#search-btn:hover {
   color: white;
 }
 
-#login-btn:focus {
+#search-btn:focus {
   box-shadow: 0 0 0 0.2rem #515751;
 }
 
-#login-btn:active {
+#search-btn:active {
   color: #171817;
   background-color: #f5f9e9
 }
