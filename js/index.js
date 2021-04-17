@@ -1,7 +1,7 @@
-$("#login-btn").on("click", function (event) {
+$("#search-btn").on("click", function (event) {
   event.preventDefault();
 
-  let githubUsername = $("#login-input").val().trim();
+  let githubUsername = $("#search-input").val().trim();
 
   window.location.href = "profile.html?name=" + githubUsername;
 })
